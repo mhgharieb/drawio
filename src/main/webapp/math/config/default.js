@@ -571,7 +571,7 @@ MathJax.Hub.Config({
     //
     //  Controls the TeX/unicode extension
     unicode: {
-      fonts: "STIXGeneral,'Arial Unicode MS'"  // the default font list for unknown characters
+      fonts: "Latin-Modern,'Arial Unicode MS'"  // the default font list for unknown characters
     }
     
   },
@@ -698,7 +698,7 @@ MathJax.Hub.Config({
     //  stop looking after the first font that exists on the system (even
     //  if it doesn't contain the needed character), so order these carefully.
     //  
-    undefinedFamily: "STIXGeneral,'Arial Unicode MS',serif",
+    undefinedFamily: "Latin-Modern,'Arial Unicode MS',serif",
 
     //
     //  This setting controls whether <mtext> elements will be typeset
@@ -883,7 +883,7 @@ MathJax.Hub.Config({
     //  that exists on the system (even if it doesn't contain the needed
     //  character), so order these carefully.
     //  
-    undefinedFamily: "STIXGeneral,'Arial Unicode MS',serif",
+    undefinedFamily: "Latin-Modern,'Arial Unicode MS',serif",
 
     //
     //  This setting controls whether <mtext> elements will be typeset
